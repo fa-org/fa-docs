@@ -1,0 +1,17 @@
+{
+  "name": "Name",
+  "version": "0.0.1",
+  "description": "Description",
+  "main": "index.js",
+  "repository": "https://github.com/org/repo.git",
+  "author": "org",
+  "license": "CC-BY-SA-4.0",
+  "scripts": {
+    "dev": "vuepress dev",
+    "build": "vuepress build"
+  },
+  "devDependencies": {
+    "vuepress": "^1.8.2",
+    "vuepress-theme-api": "^1.0.1"
+  }
+}
