@@ -1,7 +1,7 @@
 {
-  "name": "Fa 编程语言文档",
+  "name": "fa-doc",
   "version": "0.0.1",
-  "description": "Fa 编程语言用户手册、相关原理及教程",
+  "description": "Fa 编程语言文档",
   "main": "index.js",
   "repository": "https://github.com/fa-org/fa-doc.git",
   "author": "fa-org",
