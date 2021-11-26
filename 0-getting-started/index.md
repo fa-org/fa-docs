@@ -6,6 +6,5 @@
 
 - [编译 Fa 语言编译器](../complie-fa-lang-compiler/)
 - [学习 Fa 语言编译器原理](../fa-lang-compiler-principle/)
-- [Fa 语言草案](../fa-lang-draft/)
 
 如果您希望查看 Fa 语言教程，您可以前往 [该链接](https://github.com/fa-org/fa/tree/main/test) 查看示例代码。我们会不断完善该实例代码
