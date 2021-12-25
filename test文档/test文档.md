@@ -1,4 +1,8 @@
-**fa语言中有许多关键字和语法，本文档将会介绍他们的功能以及如何使用**
+$$
+fa语言中有许多关键字和语法，本文档将会介绍他们的功能以及如何使用
+$$
+
+
 
 ### 第一章：关键字
 
@@ -16,7 +20,9 @@
 
 ## 第一章：关键字
 
-### 第一节：if的用法
+### 第一节：基本关键字
+
+#### 第一小节：if的用法
 
 if在fa里有两种用法：语句和表达式
 
@@ -71,7 +77,7 @@ if当表达式用时，block处写表达式，满足条件即给_s变量赋值
 
 ------
 
-### 第二节：switch 的用法
+#### 第二小节：switch 的用法
 
 switch在fa里有三种用法：语句——switch when(类似于很多语言的switch case)，枚举，表达式
 
@@ -291,9 +297,103 @@ class Program {
 
 在这里e被直接赋值了一个类型中的成员，且**不携带任何给定的参数**
 
-### 第三节：break的用法
+#### 第三小节：return的用法
 
-Break在fa里有两种用法：
+
+
+### 第三节：循环关键字
+
+for在fa里有两种用法：
+
+#### 第一小节：while的用法（循环）
+
+while在fa里有两种用法：while循环，whlie ture循环，while do循环
+
+
+
+1.whlie循环的示例：
+
+```
+use fa;
+class Program {
+int n = 45
+while int a = 0; a < n; ++a{
+				break;
+			}
+}
+```
+
+2.whlie ture循环的示例：
+
+```
+use fa;
+class Program {
+while true {
+				break;
+			}
+}
+```
+
+3.while do循环的示例：
+
+```
+use fa;
+class Program {
+while do {
+				break;
+			}
+}
+```
+
+
+
+#### 第二小节：for的用法（循环）
+
+while在fa里有两种用法：for循环
+
+
+
+1.for循环的示例：
+
+```
+use fa;
+
+public static void Main () {
+		int n = 10;
+		for int a = 0; a < n.Length; ++a {
+			Console.Write ("hello");
+		}
+	}
+```
+
+
+
+#### 第三小节：Break的用法（循环）
+
+Break在fa里有两种用法：跳出循环
+
+1.Break在while ture循环中跳出的示例：
+
+```
+use fa;
+class Program {
+while true {
+				break;
+			}
+}
+```
+
+
+
+#### 第四小节：continue的用法（循环）
+
+continue在fa里有两种用法：继续循环
+
+#### 第五小节：return的用法（循环）
+
+return在循环里有两种用法：跳出循环并返回指定的值
+
+
 
 ------
 
@@ -335,17 +435,63 @@ class Program {
 
 在fa中，类的成员可以有这么几种属性：
 
-公共的`public`
+1.公共的`public`
+
+2.私有的`private`
 
 ------
 
 ## 第三章：类型
 
-### 第一节：变量类型
+> 在fa中有许多不同种类的类型，在本章中将会逐个分类，讲述每种类型
 
-在fa中，变量可以有以下类型：
+### 第一节：内置类型
+
+在fa中，有以下内置类型：
 
 1. `string`字符串类型
 2. `int`整数类型
-3. 
+3. `void`函数类型
+
+1.`string`字符串类型使用示例：
+
+```
+
+```
+
+2.`int`字符串类型使用示例：
+
+```
+
+```
+
+3.`void`函数类型使用示例：
+
+```
+
+```
+
+在fa中，函数可以有这么几种属性：
+
+1.公共的`public`
+
+2.私有的`private`
+
+### 第二节：可选类型
+
+`void?`函数可选类型
+
+`int?`整数可选类型
+
+### 第三节：数组类型
+
+`int[]`列表数组类型
+
+
+
+1.int[]数组类型示例：
+
+```
+
+```
 
