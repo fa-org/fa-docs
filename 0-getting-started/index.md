@@ -4,6 +4,5 @@
 
 由于目前 Fa 语言还处于开发阶段，文档目前仅有以下几个部分可供查看：
 
+- [Fa-Lang 语法与关键字](../1-falang-syntax-and-keywords/)（仍未完成）。
 - [编译 Fa 语言编译器](../complie-fa-lang-compiler/)
-
-如果您希望查看 Fa 语言教程，您可以前往 [该链接](https://github.com/fa-org/fa/tree/main/test) 查看示例代码。我们会不断完善该实例代码
