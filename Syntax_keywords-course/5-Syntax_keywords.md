@@ -285,6 +285,42 @@ class Program {
 
 #### 第三小节：return的用法
 
+return在fa中可以用来返回值，也可以终止函数
+
+
+
+终止函数的例子：
+
+```
+use fa;
+
+class progam{
+  public static void Main (){
+
+  Console.Write ("这是一个无返回值函数，在这里return用来终止函数");
+  return;
+  }
+  
+}
+```
+
+返回值的例子：
+
+```
+use fa;
+
+class progam{
+  public static void Main (a,b){
+	c = a+b
+  Console.Write ("这是一个有返回值函数，在这里return用来终止函数并返回值");
+  return c ;
+  }
+  
+}
+```
+
+
+
 ------
 
 ### 第三节：循环关键字
@@ -348,7 +384,7 @@ use fa;
 
 public static void Main () {
 		int n = 10;
-		for int a = 0; a < n.Length; ++a {
+		for int a = 0; a < n.Length; ++a； {
 			Console.Write ("hello");
 		}
 	}
@@ -384,6 +420,23 @@ continue在fa里有两种用法：继续循环
 return在循环里有两种用法：跳出循环并返回指定的值
 
 
+
+1.return在while ture循环中跳出的示例：
+
+```
+use fa;
+class Program {
+int a = 0;
+while true {
+				a = ++a;
+				if (a == 12){
+					return a;
+				}
+			}
+}
+```
+
+详解：在这里我们在while ture循环里
 
 ------
 
@@ -441,7 +494,6 @@ class Program {
 
 1. `string`字符串类型
 2. `int`整数类型
-3. `void`函数类型
 
 #### 第一小节：string字符串类型
 
@@ -463,9 +515,9 @@ int n = 114514
 
 详解：在这里我们定义了一个名为n的变量，指定为字符串类型`int n`，并赋值`= 114514`
 
-#### 第三小节:`void`函数类型
+#### 第三小节:函数类型
 
-`void`函数类型使用示例：
+`void`无返回值函数类型使用示例：
 
 ```
 use fa;
@@ -483,9 +535,9 @@ class Program {
 
 详解：
 
-在这里，我们定义了一个main函数和一个hellofunc函数，在fa中，**main函数是程序的入口**，程序会从这开始执行。hellfunc函数则是一个普通函数。
+在这里，我们定义了一个main函数和一个hellofunc函数，在fa中，**main函数是程序的入口**，程序会从这开始执行。hellfunc函数则是一个无返回值函数。
 
-要定义一个函数，需要使用`void`关键字，简单使用示例：
+要定义一个无返回值函数，需要使用`void`关键字，简单使用示例：
 
 ```
 void funcname()
