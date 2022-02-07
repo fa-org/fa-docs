@@ -273,9 +273,43 @@ class Program {
 
 ### return的用法
 
-::: warning 待补充 
-本内容待补充
-:::
+
+
+return在fa中可以用来返回值，也可以终止函数
+
+
+
+1.终止函数的例子：
+
+```
+use fa;
+
+class progam{
+  public static void Main (){
+
+  Console.Write ("这是一个无返回值函数，在这里return用来终止函数");
+  return;
+  }
+  
+}
+```
+
+2.返回值的例子：
+
+```
+use fa;
+
+class progam{
+  public static void Main (a,b){
+	c = a+b
+  Console.Write ("这是一个有返回值函数，在这里return用来终止函数并返回值");
+  return c ;
+  }
+  
+}
+```
+
+
 
 ------
 
