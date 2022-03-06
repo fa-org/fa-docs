@@ -15,3 +15,13 @@
 
 5. 前往 `fa` 路径下的 `fac/bin/Release/net5.0` 
 6. 该路径下的 `fac` 或者 `fac.exe` 即为编译器
+
+## macOS 环境
+
+### 使用 JetBrains Rider
+
+## Linux 环境
+
+::: warning Coming soon...
+这部分正在施工
+:::
