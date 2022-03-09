@@ -12,15 +12,13 @@
 
 `string`字符串类型，使用char[]数组类型存储，范围等同于`int`。
 
-func<>
-
 fa的浮点数取决于cpu浮点寄存器，暂无关键字 <!--fa的浮点数遵循IEEE标准（ANSI/IEEE Std 754-1985）-->
 
 
 
 ## 可选类型
 
-`void?` void? func<> 
+`void?` func<参数名 返回类型>  
 
 `int?` 可选（可空）整数类型，缺省（默认）值为null（空）。
 
