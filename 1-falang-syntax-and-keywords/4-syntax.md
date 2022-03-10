@@ -1,7 +1,6 @@
 # 语法
 
 
-
 ## 注释
 
 ### 单行注释
@@ -65,12 +64,12 @@ class Program {
 int n = 45
 //表达式表示隔断
 while int a = 0; a < n; ++a{
-				break;
-			}
+		break;
+	}
 }
 ```
 
-##### 在if中的使用示例2：
+##### 在if中的使用示例：
 
 ```
 use fa;
@@ -115,10 +114,10 @@ use fa;
 
 class progam{
 	//参数a,b被"()"包裹在函数里
-  public static void Main (a,b){
-	c = a+b
-  Console.Write ("这是一个有返回值函数，在这里return用来终止函数并返回值");
-  return c ;
+    public static void Main (a,b){
+		c = a+b
+		Console.Write ("这是一个有返回值函数，在这里return用来终止函数并返回值");
+		return c ;
   }
   
 }
@@ -131,14 +130,12 @@ use fa;
 
 class progam{
   public static void Main (){
-  Console.Write ('这里使用 "." 调用了Console类的Write函数，并在"()"里传入了一串字符串给参数  ');
-  return c ;
+	Console.Write ('这里使用 "." 调用了Console类的Write函数，并在"()"里传入了一串字符串给参数  ');
+	return c ;
   }
 
 }
 ```
-
-
 
 ### 表达式
 
@@ -159,8 +156,6 @@ fa中的数学符号表达式有：
 `!=`不等于
 
 **它们会返回一个布尔值，当条件成立则返回`True`，不成立返回`False`**
-
-
 
 数学运算表达式：
 
@@ -185,18 +180,3 @@ fa中的数学符号表达式有：
 `--`自减（-1）
 
 **它们用于进行数学运算，并返回得到的值**
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
